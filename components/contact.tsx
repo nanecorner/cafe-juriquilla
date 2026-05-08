@@ -26,8 +26,7 @@ export function Contact() {
                 <div>
                   <p className="font-medium text-foreground">Dirección</p>
                   <p className="text-muted-foreground text-sm">
-                    Residencial Caletto, Blvd. Jurica la Campana Col, Jurica Acueducto,<br />
-                    76230 Juriquilla, Qro., México
+                    Residencial Caletto, Blvd. Jurica la Campana Col, Jurica Acueducto, 76230 Juriquilla, Qro., México
                   </p>
                 </div>
               </div>
