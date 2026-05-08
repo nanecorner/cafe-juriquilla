@@ -14,7 +14,7 @@ export function Contact() {
               Te esperamos en Juriquilla
             </h2>
             <p className="text-muted-foreground mb-10 leading-relaxed">
-              Estamos ubicados en el corazón de Juriquilla, a solo unos minutos 
+              Estamos ubicados en el corazón de Juriquilla, a solo unos minutos
               del centro comercial y las principales plazas.
             </p>
 
@@ -48,7 +48,9 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p className="text-muted-foreground text-sm">hola@cafejuriquilla.mx</p>
+                  <a href="mailto:contacto@cafejuriquilla.mx" className="text-muted-foreground text-sm hover:text-accent transition-colors">
+                    contacto@cafejuriquilla.mx
+                  </a>
                 </div>
               </div>
 
@@ -64,31 +66,23 @@ export function Contact() {
                   </p>
                 </div>
               </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
-                  <Instagram className="w-5 h-5 text-accent" />
-                </div>
-                <div>
-                  <p className="font-medium text-foreground">Instagram</p>
-                  <p className="text-muted-foreground text-sm">@cafejuriquilla</p>
-                </div>
-              </div>
             </div>
           </div>
 
           {/* Google Maps */}
-          <div className="rounded-lg overflow-hidden border border-border h-[400px] lg:h-auto">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14917.943857391725!2d-100.45!3d20.71!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35b8b8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sJuriquilla%2C%20Quer%C3%A9taro!5e0!3m2!1ses!2smx!4v1699999999999!5m2!1ses!2smx"
-              width="100%"
-              height="100%"
-              style={{ border: 0, minHeight: "400px" }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación de Café Juriquilla"
-            />
+          <div className="flex flex-col gap-4">
+            <div className="rounded-lg overflow-hidden border border-border h-[400px] lg:h-full min-h-[400px] shadow-md">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.4!2d-100.4407!3d20.7197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35f6b1b1b1b1b%3A0x0!2sResidencial+Caletto%2C+Blvd.+Jurica+la+Campana%2C+Jurica+Acueducto%2C+76230+Juriquilla%2C+Qro.!5e0!3m2!1ses!2smx!4v1715200000000!5m2!1ses!2smx"
+                width="100%"
+                height="100%"
+                style={{ border: 0, minHeight: "400px" }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Ubicación de Café Juriquilla — Residencial Caletto, Juriquilla"
+              />
+            </div>
           </div>
         </div>
       </div>

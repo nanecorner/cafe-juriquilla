@@ -12,7 +12,7 @@ export function Footer() {
               Café Juriquilla
             </Link>
             <p className="text-secondary/70 max-w-md leading-relaxed">
-              Café de especialidad en el corazón de Juriquilla. Tostado con pasión, 
+              Café de especialidad en el corazón de Juriquilla. Tostado con pasión,
               servido con amor. Tu nuevo lugar favorito te espera.
             </p>
           </div>
@@ -48,18 +48,18 @@ export function Footer() {
           <div>
             <h4 className="font-medium text-card mb-4">Síguenos</h4>
             <div className="flex gap-4">
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
+              <a
+                href="https://www.instagram.com/starbucksmex/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center hover:bg-secondary/20 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5 text-card" />
               </a>
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
+              <a
+                href="https://www.facebook.com/StarbucksMexico"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center hover:bg-secondary/20 transition-colors"
                 aria-label="Facebook"
@@ -73,7 +73,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-secondary/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-secondary/50 text-sm">
-            © 2024 Café Juriquilla. Todos los derechos reservados.
+            © 2026 Café Juriquilla. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
             <Link href="#" className="text-secondary/50 hover:text-card transition-colors text-sm">
@@ -83,6 +83,13 @@ export function Footer() {
               Términos
             </Link>
           </div>
+        </div>
+
+        {/* Maker credit */}
+        <div className="pt-6 text-center">
+          <p className="text-secondary/30 text-xs">
+            Hecho por D&apos;cReaM 🐢
+          </p>
         </div>
       </div>
     </footer>

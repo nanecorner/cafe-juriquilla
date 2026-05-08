@@ -16,7 +16,7 @@ const menuCategories = [
   },
   {
     title: "Bebidas Frías",
-    image: "/images/coffee-cup.jpg",
+    image: "/images/cold-drinks.jpg",
     items: [
       { name: "Cold Brew", price: "$75" },
       { name: "Iced Latte", price: "$75" },
